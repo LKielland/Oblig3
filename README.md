@@ -1,14 +1,14 @@
-# Oblig X
+# Oblig 3
 
-OsloMet brukernavn: sXXXXXX
+OsloMet brukernavn: s362057
 
-GitHub brukernavn: 
+GitHub brukernavn: LKielland
 
-GitHub repo URL: 
+GitHub repo URL: https://github.com/DATA1700/oblig-3-LKielland
 
 URL til Heroku app: 
 
-Fullt navn: 
+Fullt navn: Leif Esten Grimstad Kielland
 
 Kort beskrivelse av applikasjon (5–10 setninger): 
 

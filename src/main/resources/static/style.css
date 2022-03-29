@@ -1,0 +1,55 @@
+* {
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+h1 {
+    text-align:center;
+}
+.feilmld {
+    display: inline-block;
+    color: red;
+}
+.form-group{
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: solid 1px gray;
+    box-shadow: 2px 2px 5px darkgray;
+    width: 100%;
+}
+#progress {
+    height: 50px;
+    margin-left: 40px;
+}
+
+#biletter > input{
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-bottom: 3px;
+}
+#personinfo {
+    margin-bottom: 10px;
+}
+button {
+    margin: 30px;
+    margin-left: 75px;
+
+}
+table {
+    margin-left: 25px;
+    width: 635px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    font-family: sans-serif;
+    font-size: .8rem;
+}

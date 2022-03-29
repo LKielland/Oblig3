@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oblig 3</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+
+<h1 class="mx-auto">Bestilling av kinobiletter</h1>
+
+<div id="billetter">
+    <section id="personinfo">
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="filmer">Velg film: </label>
+                    <div id="filmer" class="dropdown"></div>
+                    <div class="feilmld" id="filmStatus"></div>
+
+                    <div class="row w-25">
+                        <div class="col">
+                            <input type="text" class="col form-control form-control-sm" name="antall" id="antall" placeholder="Antall">
+                            <div class="feilmld" id="antallStatus"></div>
+                        </div>
+                    </div>
+
+                    <div class="row w-50">
+                        <div class="col">
+                            <input type="text" class="col form-control form-control-sm" id="fornavn" placeholder="Fornavn"><div class="feilmld" id="fornavnStatus"></div><br>
+                        </div>
+                    </div>
+                    <div class="row w-50">
+                        <div class="col">
+                            <input type="text" class="col form-control form-control-sm" id="etternavn" placeholder="Etternavn"><div class="feilmld" id="etternavnStatus"></div><br>
+                        </div>
+                    </div>
+                    <div class="row w-50">
+                        <div class="col">
+                            <input type="text" class="col form-control form-control-sm" id="tlf" placeholder="Telefonnummer"><div class="feilmld" id="tlfStatus"></div><br>
+                        </div>
+                    </div>
+                    <div class="row w-50">
+                        <div class="col">
+                            <input type="text" class="col form-control form-control-sm" id="epost" placeholder="E-post adresse"><div class="feilmld" id="epostStatus"></div><br>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <button id="kjop" class="btn btn-primary" onclick="buyTicket()">Kjøp Billett</button><br>
+                <section id="progress"></section>
+            </div>
+            <div class="col-4">
+                <button id="bestillinger" class="btn btn-primary" onclick="visBestillinger()">Vis Bestillinger</button>
+                <button id="slett" class="btn btn-danger" onclick="slettBestillinger()">Slett Bestillinger</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class="table" id="personRegister"></table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
